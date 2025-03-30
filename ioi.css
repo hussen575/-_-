@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F5F5DC; 
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #FAF9E6; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #4C7337; 
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #5B5B5B;
+    padding: 10px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #4C7337;
+    margin: 15px 0;
+}
+
+.link-button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #4C7337;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #4C7337;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-button:hover {
+    background-color: #4C7337;
+    color: white;
+}
+
+.bot-button {
+    background-color: #E6E6E6;
+    color: #4C7337;
+}
+
+.bot-button:hover {
+    background-color: #4C7337;
+    color: white;
+}
+
+.latest-materials {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.latest-materials h2 {
+    color: #4C7337;
+    font-size: 20px;
+}
+
+.latest-materials ul {
+    list-style: none;
+    padding: 0;
+}
+
+.latest-materials ul li {
+    margin: 10px 0;
+}
+
+.latest-materials ul li a {
+    text-decoration: none;
+    color: #4C7337;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border: 1px solid #4C7337;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.latest-materials ul li a:hover {
+    background-color: #4C7337;
+    color: white;
+}
